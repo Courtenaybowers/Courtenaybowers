@@ -1,0 +1,8 @@
+#Python
+print('Enter your name:')
+x = input()
+print('Hello, ' + x)
+
+occupation = "Analytic Consultant and aspiring Data Scientist"
+txt = "My name is @Courtenaybowers, and I am an {}."
+print(txt.format(occupation))
